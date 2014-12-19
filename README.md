@@ -7,9 +7,11 @@ Identifies the following errors:
 * subfield code without an alphanumeric value, such as $a in $a$bValue or $a:$bValue
 * subfield code that is not a lower case letter or number
 * subfield delimiter symbol without a code  
+
 Notes error types amenable to batch updates:
 * a repeated subfield code, such as $a$aValue
 * a terminal empty subfield, such as $b in $aValue$b  
+
 Supplements error logging with metadata from the record that may be used for filtering or routing for manual review:
 * record identifier
 * field tag where error was found
